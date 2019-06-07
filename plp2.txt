@@ -1,0 +1,205 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 15%;
+  height: 100px; /* only for demonstration, should be removed */
+  background-color: blue;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color:blue;
+  height: 100px; /* only for demonstration, should be removed */
+}
+.jhg{
+  padding: 10 100px;    
+    border-radius: 2px 0 0 2px;
+    border: 0;
+    outline: 0 none;
+    font-size: 14px;
+    height: 100px;
+   
+
+  float: left;
+  padding: 20px;
+  width: 15%;
+  background-color:blue;
+  /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Welcome </h2>
+  
+</header>
+
+<section>
+  <nav>
+ <h3>CapStore</h3>
+  </nav>  
+  <article>
+      <div class="dsa" >
+          <input type="text" value="" class="dsa" title="Search for products, brands and more" name="q" autocomplete="off" placeholder="Search for products, brands and more">
+          <button class="vh79eN" type="submit">
+              <svg width="32" height="32" viewBox="0 0 15 18" class="" xmlns="http://www.w3.org/2000/svg">
+                <g fill="#2874F1" fill-rule="evenodd">
+                  <path class="_2BhAHa" d="m11.618 9.897l4.225 4.212c.092.092.101.232.02.313l-1.465 1.46c-.081.081-.221.072-.314-.02l-4.216-4.203"></path>
+                  <path class="_2BhAHa" d="m6.486 10.901c-2.42 0-4.381-1.956-4.381-4.368 0-2.413 1.961-4.369 4.381-4.369 2.42 0 4.381 1.956 4.381 4.369 0 2.413-1.961 4.368-4.381 4.368m0-10.835c-3.582 0-6.486 2.895-6.486 6.467 0 3.572 2.904 6.467 6.486 6.467 3.582 0 6.486-2.895 6.486-6.467 0-3.572-2.904-6.467-6.486-6.467">
+    
+                  </path>
+                </g>
+            </svg>
+            </button>
+        </div>     
+      
+   </article>
+
+  <article class="jhg">
+     
+   </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<style>
+.cities {
+  background-color:blue;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+    <div class="cities">
+<table>
+
+  <th>
+  <h2>London</h2>
+  </th>
+
+  <th>
+      <h2>Paris</h2>
+  </th>
+   <th>
+   <h2>Tokyo</h2>
+  </th>
+
+ 
+</table>
+</div>
+</body>
+</html>
+ -->
+
+<!-- 
+<div class="_1tz-RS">
+  <div class="_1S7OK2"></div>
+  <div class="_3pNZKl">
+    <div class="_1T-JyI">
+      <div class="_3dGepu">
+        
+         <h2>CapStore</h2> 
+        
+         
+        </div>
+        <div class="Y5-ZPI" style="align-self:center">
+          <form class="_1WMLwI header-form-search" action="/search" method="GET">
+            <div class="col-12-12 _2tVp4j">
+              <div class="O8ZS_U">
+                <input type="text" value="" class="dsa" title="Search for products, brands and more" name="q" autocomplete="off" placeholder="Search for products, brands and more">
+              </div>
+              <button class="vh79eN" type="submit">
+                <svg width="20" height="20" viewBox="0 0 17 18" class="" xmlns="http://www.w3.org/2000/svg">
+                  <g fill="#2874F1" fill-rule="evenodd">
+                    <path class="_2BhAHa" d="m11.618 9.897l4.225 4.212c.092.092.101.232.02.313l-1.465 1.46c-.081.081-.221.072-.314-.02l-4.216-4.203"></path>
+                    <path class="_2BhAHa" d="m6.486 10.901c-2.42 0-4.381-1.956-4.381-4.368 0-2.413 1.961-4.369 4.381-4.369 2.42 0 4.381 1.956 4.381 4.369 0 2.413-1.961 4.368-4.381 4.368m0-10.835c-3.582 0-6.486 2.895-6.486 6.467 0 3.572 2.904 6.467 6.486 6.467 3.582 0 6.486-2.895 6.486-6.467 0-3.572-2.904-6.467-6.486-6.467">
+
+                    </path>
+                  </g>
+              </svg>
+              </button>
+              <input type="hidden" name="otracker" value="search">
+              <input type="hidden" name="otracker1" value="search">
+              <input type="hidden" name="marketplace" value="FLIPKART">
+              <input type="hidden" name="as-show" value="on">
+              <input type="hidden" name="as" value="off">
+            </div>
+   </form></div><div class="_1jA3uo _34niwY"><div class="dHGf8H"><a href="/account/login?ret=/">Login &amp; Signup</a></div></div><div class="_1jA3uo">
+     <div class="dHGf8H">
+       <div class="_1jcwFN _3dmQRh">
+         <span>
+           
+          </span>
+        </div><svg width="4.7" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg" class="_34Yjv1"><path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff" class="_14jSvk"></path></svg></div></div><div class="_1jA3uo"><a class="_3ko_Ud" href="/viewcart?otracker=Cart_Icon_Click"><svg class="_2fcmoV" width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path class="_2JpNOH" d="M15.32 2.405H4.887C3 2.405 2.46.805 2.46.805L2.257.21C2.208.085 2.083 0 1.946 0H.336C.1 0-.064.24.024.46l.644 1.945L3.11 9.767c.047.137.175.23.32.23h8.418l-.493 1.958H3.768l.002.003c-.017 0-.033-.003-.05-.003-1.06 0-1.92.86-1.92 1.92s.86 1.92 1.92 1.92c.99 0 1.805-.75 1.91-1.712l5.55.076c.12.922.91 1.636 1.867 1.636 1.04 0 1.885-.844 1.885-1.885 0-.866-.584-1.593-1.38-1.814l2.423-8.832c.12-.433-.206-.86-.655-.86" fill="#fff"></path></svg><span>Cart</span></a></div></div><div class="_1S7OK2"></div></div>
+  </div>
+  -->
