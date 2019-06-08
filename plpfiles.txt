@@ -1,0 +1,3 @@
+https://github.com/ikismail/Angular-ShoppingCart
+
+https://github.com/aviabird/angularspree/tree/develop/src
